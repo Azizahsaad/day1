@@ -1,0 +1,44 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");  //my name
+        int age = 27;
+        String FullName = "Azizah Almutairy";
+        System.out.println(FullName + "   " + age);
+        System.out.println(age);
+
+        int MyAge = 27;
+        System.out.println("my age is" + MyAge);
+
+        int num1 = 10;
+        int num2 = 10;
+        int sum = num1 + num2;
+        System.out.println("sum of tow numbers is:" + sum);
+        double division = sum / 2;
+
+        int height = 5;
+        int width = 7;
+        int area = height * width;
+        System.out.println("the area is :" + area);
+        int perimeter = (height + width) * 2;
+        System.out.println("the perimeter is:" + perimeter);
+
+        int a1 = 23;
+        int a2 = 45;
+        if (a1 == a2) {
+            System.out.println("they are equl");
+        } else {
+            System.out.println("they are not equal");}
+
+            int a = 55;
+            int b = 70;
+            if (a < 50 && a < b) {
+                System.out.println("a is less then of50 and a less then of b");
+            }
+
+            int x = 55;
+            int y = 70;
+            if (x < 50 || x < b) {
+                System.out.println("a is less then of 50 or a less then of b");
+            }
+        }
+    }
